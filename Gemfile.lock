@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     shc (0.0.1)
+      multi_json
 
 GEM
   remote: https://rubygems.org/

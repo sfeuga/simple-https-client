@@ -1,0 +1,12 @@
+language: ruby
+sudo: false
+cache: bundler
+rvm:
+  - 2.2.3
+before_script: bundle update
+notifications:
+  email:
+    recipients:
+      - stephane.feuga@accenture.com
+    on_success: change
+    on_failure: always

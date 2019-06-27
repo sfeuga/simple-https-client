@@ -2,8 +2,6 @@
 
 A simple HTTP(S) client in Ruby to query any RESTful API.
 
-[![Build](https://travis-ci.org/sfeuga/simple-http_s-client.svg?branch=master)](https://travis-ci.org/sfeuga/simple-http_s-client)
-
 ---
 
 Will be Implemented Request methods :

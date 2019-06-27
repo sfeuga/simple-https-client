@@ -15,10 +15,10 @@ module SHC
     #
     def initialize(host: nil, request_headers: nil, url: nil, version: nil)
       @host = host
-      @request_headers = request_headers ? request_headers : {}
-      @url = url ? url : []
+      @request_headers = request_headers || {}
+      @url = url || []
       @version = version
-      @methods = %w(delete get patch post put)
+      @methods = %w[delete get patch post put]
       @query_params = nil
       @request_body = nil
     end

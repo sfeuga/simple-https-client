@@ -1,6 +1,7 @@
 AllCops:
   Include:
     - 'Gemfile'
+    - 'lib/**/*'
   Exclude:
     - 'script/**/*'
     - 'vendor/**/*'

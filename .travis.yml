@@ -3,9 +3,6 @@ cache: bundler
 rvm:
 - 2.2.3
 deploy:
-  provider: rubygems
-  api_key:
-    secure: MM3TIM5fZKqhhJCW2QjxHzkgsLHwaaFUgNQK+FYeSN2dA37tsiAVuxwseaaCNdmiYq2MTZM8oz9nsMRNPqtGttZSFDIP/wS5rr1cGXWIomPUF69w80s/XrXLBEPxwXzbIGU5yj4rFlresAaLn2pNPTiO4Zu9geajyTz1AYCstpTQn03nyIvEFHx+2PBkfJK58fLQ5XMVl+DeWplRFFa3pO96o+tx8SFWPQpznCjqUzhY0/zZUErzpW3mEErq60FgriR2s8ZJiIIytG+O+EyVeyhCm3A3C3BalJhQTM4CuneSIWjsy7HhGtQVu2T9z1FXnsM6/JkN0l3c872jdQp4bTFD3sBWRaYHOJ+mnH9ggMgzEW6JcO/Hefr2O3j4kbswJulihVSuO+1DG9xslf4kkYzy9+eR/5CD4xxHGF5hOoscAETQuSUOnVK8YaGfIQdq3hNw9V0z3Qqo5uBiVaw6bfzUp5DR+KX6/sgbYnvT4esTb1uyP5PJyrTCwU9NHyB4wY9k8/xjMgfexNPaAGseQm/ljNBuAoaLxFcC/gBNsAFvW9JQIEuESXxW7Vk0/0RTAoDvRnp5eew9e/2xtRGJqhGeqSEcpHg7npWM2JMI/NaDt6m+TUIKwdLQP4L7qWiv+98fMT2Jn8FGTOwrgi3oAL8QdvnSkNeiB1o6rP7eBSU=
   gem: 
     master: simple-https-client
   gemspec: shc.gemspec
@@ -15,6 +12,6 @@ deploy:
 notifications:
   email:
     recipients:
-      - stephane.feuga@accenture.com
+      - sfeuga@member.fsf.org
     on_success: change
     on_failure: always
